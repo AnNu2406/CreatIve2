@@ -1,0 +1,40 @@
+.transparency{
+    margin-right: 10px;
+    margin-right: 5px;
+}
+h2{
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.notice{
+    margin-left: 20px;
+    margin-bottom: 40px;
+}
+.work{
+    background-color:#f8f9fa;
+    display: flex;
+        gap: 20px;
+        flex-direction: column;
+        align-items: center;
+
+}
+@media(min-width:1050px){
+    .work{
+        display: grid;
+        gap: 20px;
+        grid-template: 1fr/ 1fr 1fr 1fr;
+    }
+}
+@media(min-width:685px) and (max-width:1049px){
+    .work{
+        display: grid;
+        gap: 20px;
+        grid-template: 1fr 1fr / 1fr 1fr;
+    }
+}
+
+
+.work img{
+    margin: 10px;
+    border-radius: 25px;
+}
